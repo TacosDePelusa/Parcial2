@@ -1,6 +1,18 @@
 header.menu{
     background-color:cyan;
     color:ghostwhite;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left:0;
+}
+.Inicio{
+    font-size: 15px;
+    margin: 0 20px;
+    line-height: 50px;
+    text-transform: uppercase;
+    width: max-content;
 }
 .Inicio:hover {
     font-size: large;
@@ -8,12 +20,26 @@ header.menu{
     background-color:snow;
     text-align: center;
   }
+.Quienes{
+    font-size: 15px;
+    margin: 0 20px;
+    line-height: 50px;
+    text-transform: uppercase;
+    width: max-content;
+}
   .Quienes:hover {
     font-size: large;
     color:ghostwhite;
     background-color:burlywood;
     text-align: center;
   }
+.Contacto{
+    font-size: 15px;
+    margin: 0 20px;
+    line-height: 50px;
+    text-transform: uppercase;
+    width: max-content;
+}
   .Contacto:hover {
     font-size: large;
     color:ghostwhite;
@@ -34,3 +60,82 @@ header.menu{
     line-height: 200%;
     margin: 8em 16em ;
   }
+  #p1{
+    color:darkgreen;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  #p2{
+    color:crimson;
+    font-weight: bold;
+  }
+  #p3{
+    font-weight:lighter;
+    text-decoration: overline;
+  }
+  #p4{
+    font-weight: bold;
+    font-size: x-large;
+  }
+  #p5{
+    color:blue;
+    font-weight: bold;
+  }
+  #p6{
+    color:crimson;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+.centro{
+    display: flex;
+    justify-content: center;
+    margin: 0 50px;
+}
+.img{
+    width: 10%;
+}
+.rs{
+    margin: 0 20px;
+    margin-top: 20px;
+}
+.t{
+    margin: 0 400px;
+    font-weight: bold;
+}
+.tabla{
+    border-color: black;
+    border-style: dotted;
+    background-color: gold;
+}
+.j{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+    font-size: 20px;
+}
+.texto{
+    color: red;
+    text-align: center;
+}
+.tab{
+    display: grid;
+        grid-template-columns: 1fr 1fr ;
+        background-color: gold;
+}
+.tablo{
+        border-color: black;
+        border-style: dotted;
+}
+.tabl{
+    border-color: black;
+    border-style: dotted;
+}
+.texto{
+    color:black;
+    text-align: center;
+}
+ul.lista{
+    color:black;
+    text-align: center;
+    margin: 8em 16em ;
+}
