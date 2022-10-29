@@ -1,4 +1,36 @@
 header.menu{
-    background-color: black;
+    background-color:cyan;
     color:ghostwhite;
 }
+.Inicio:hover {
+    font-size: large;
+    color:black;
+    background-color:snow;
+    text-align: center;
+  }
+  .Quienes:hover {
+    font-size: large;
+    color:ghostwhite;
+    background-color:burlywood;
+    text-align: center;
+  }
+  .Contacto:hover {
+    font-size: large;
+    color:ghostwhite;
+    background-color:darkgray;
+    text-align: center;
+  }
+  .body1{
+    background-color:snow;
+  }
+  .body2{
+    background-color:burlywood;
+  }
+  .body3{
+    background-color:darkgray;
+  }
+  #inicio{
+    text-align:left;
+    line-height: 200%;
+    margin: 8em 16em ;
+  }
