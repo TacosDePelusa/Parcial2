@@ -98,44 +98,39 @@ header.menu{
     margin: 0 20px;
     margin-top: 20px;
 }
-.t{
-    margin: 0 400px;
-    font-weight: bold;
-}
-.tabla{
-    border-color: black;
-    border-style: dotted;
-    background-color: gold;
-}
-.j{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 50px;
-    font-size: 20px;
-}
-.texto{
-    color: red;
-    text-align: center;
-}
-.tab{
-    display: grid;
-        grid-template-columns: 1fr 1fr ;
-        background-color: gold;
-}
-.tablo{
-        border-color: black;
-        border-style: dotted;
-}
-.tabl{
-    border-color: black;
-    border-style: dotted;
-}
-.texto{
-    color:black;
-    text-align: center;
-}
 ul.lista{
     color:black;
     text-align: center;
     margin: 8em 16em ;
 }
+.Table{
+    color:crimson;
+    
+ }
+ .Texto{
+    text-align:justify;
+    font-weight: bold;
+ }
+ table {
+   width: 100%;
+   text-align: left;
+   border-collapse: collapse;
+   margin: 0 0 1em 0;
+   caption-side: top;
+   background-color:gold;
+
+ }
+ caption, td, th {
+    padding: 0.3em;
+    border: 2px dotted black;
+    width: 25%;
+   text-align: center;
+   vertical-align: top;
+   border-collapse: collapse;
+   border-spacing: 0;
+
+ }
+ tbody {
+    border: 2px dotted black;
+    border-bottom: 2px dotted crimson;
+ }
